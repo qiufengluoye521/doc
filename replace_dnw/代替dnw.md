@@ -1,9 +1,9 @@
-# 使用TFTP下载
+﻿# 使用TFTP下载
 1. 使用tftp 
 
    tftp boot -> tftpd32.exe ->选择主机地址，目标文件目录
 
-   ![](D:\document\markdown\代替dnw\pic\tftp.jpg)
+   ![tftp工具](/pic/tftp.jpg)
 
 2. 设置服务器IP，和开发板IP
 
@@ -30,7 +30,7 @@
 1. nfs 30000000 192.168.1.123:/work/nfs_root/uImage
     /work/nfs/nfs_root/uImage 为什么是这个目录呢， cat /etc/exports 查看这个文件，这个文件中指定了只有某些目录可以挂载。
 
-    ![](D:\document\markdown\代替dnw\pic\etc_exports.jpg)
+    ![](/pic/etc_exports.jpg)
 
 2. nand erase kenel 
 
